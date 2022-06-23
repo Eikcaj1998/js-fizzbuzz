@@ -1,0 +1,47 @@
+body {
+    background-color: #083B4C;
+    font-family: sans-serif;
+}
+
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+#box-wrapper {
+    margin: 0 auto;
+}
+.txt-center {
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color-fizz {background-color: #0BD6A1;}
+
+.color-buzz {background-color: #FFD166;}
+
+.color-fizzbuzz {background-color: #F0466F;}
+
+.base-color {background-color: #1389B2;}
+
+.box {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    border: 2px solid black;
+    margin: 10px;   
+}
