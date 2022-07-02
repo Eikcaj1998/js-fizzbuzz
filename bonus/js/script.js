@@ -36,7 +36,6 @@ for (let i = 1; i <= 100; i++) {
     }
     console.log (message);
     //css
-    const fbBox = document.createTextNode (message);
-    boxElements.appendChild (fbBox);
+    boxElements.append (message);
     boxElements.classList.add ("box","d-flex", "align-center", "justify-center");
 };
